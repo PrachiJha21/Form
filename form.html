@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<HTML>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <HEADER>
+    <h1 id="title" class="centre">Survey Form</h1>
+    <p id="description" class="centre">This survey form is build to welcome all the crictical feedbacks. Thank You!</p>
+  </HEADER>
+
+  <form id="survey-form">
+    
+    <label id="name-label">Name</label>
+    <input type="text" id="name" placeholder="Enter Your Name" required>
+    <label id="email-label">Email</label>
+    <input type="email" id="email" placeholder="Enter You Email" id="name" required>
+    <label id="number-label">Age</label>
+    <input type="number" max="99" min="10" id="number" placeholder="Age">
+    <p>Which role describes you best right now?</p>
+    <select id="dropdown" name="role" class="form-control">
+      <option>Select current role</option>
+      <option value="student">Student</option>
+      <option value="learner">Full Time Learner</option>
+      <option value="other">Other</option>
+    </select>
+    <p>Would you recommend this website to your friends?</p>
+    <label> <input type="radio" name="friend" value="Definately">Definately</label><br>
+    <label> <input type="radio" name="friend" value="Maybe">Maybe</label><br>
+    <label> <input type="radio" name="friend" value="No">No</label><br>
+    <p>What would you like to see improved?</P>
+    <label><input type="checkbox" value="Front-end">Front-end Projects</label><br>
+    <label><input type="checkbox" value="back-end">back-end Projects</label><br>
+    <label><input type="checkbox" value="Data">Data Visualization</label><br>
+    <label><input type="checkbox" value="Challenges">Challenges</label><br>
+    <label><input type="checkbox" value="Courses">Courses</label><br>
+    <p>Any comments or suggestions?</p>
+    <textarea name="area" id="text" cols="30" rows="10" placeholder="Enter your comment here..."></textarea>
+    <footer class="centre">
+      <button type="submit" id="submit">Submit</button>
+    </footer>
+  </form>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+body {
+    color: white;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCO60nFu1CjlMksEFh3IaW5aVac1G4Jt1DMw&usqp=CAU);
+    margin: 0px;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+    background-size: cover;
+}
+
+#title {
+    font-size: xx-large;
+}
+
+#description {
+    font-size: larger;
+}
+
+#survey-form {
+    background-color: rgba(11, 11, 55, 0.515);
+    padding: 30px;
+    font-size: large;
+}
+
+#Submit {
+    background-color: green;
+    color: white;
+}
+
+.centre {
+    text-align: center;
+}
+
+#name-label {
+    display: block;
+}
+
+#email-label {
+    display: block;
+}
+
+#number-label {
+    display: block;
+}
+
+#name {
+    width: 100%;
+    margin: 8px 0;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+#number {
+    width: 100%;
+    margin: 8px 0;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+#email {
+    width: 100%;
+    margin: 8px 0;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+#dropdown {
+    width: 100%;
+    margin: 8px 0;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+#submit {
+    margin: 8px 0;
+    width: 100%;
+    padding: 5px;
+    background-color: green;
+        color: white;
+}
+
+#text {
+    margin: 8px 0;
+    width: 100%;
+    padding: 5px;
+}
